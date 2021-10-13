@@ -7,8 +7,7 @@ typedef unsigned int UINT;
 
 bool CheckBit(UINT iNo)
 {
-	//0000 	0000 	0000 	0000 	0100 	0000 	0000 	0000 
-	//0		0		0		0		4		0		0		0	
+		
 	UINT iMask =0X00004000;
 	UINT iResult =0;
 	
